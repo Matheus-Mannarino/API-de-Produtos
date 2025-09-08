@@ -33,4 +33,4 @@ Um site com 2 páginas onde haja:
 
 8. Use a url https://dummyjson.com/products/category/smartphones. Insira todos os smartphones que a API retorna (total de 16), cada um em um card com as informações de modelo e a imagem do produto (cada smartphone possui uma propriedade images, que é um array de strings que são urls de imagens do celular. Você só precisa acessar a url da primeira imagem do array - images[0]).
 
-9- Layout: deve ser de uma coluna em celulares e três em desktops (no caso da galeria de smartphones).
+9. Layout: deve ser de uma coluna em celulares e três em desktops (no caso da galeria de smartphones).
