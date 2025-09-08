@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!--link com o css-->
+</head>
+<body>
+    <header> <!--header com o icone, nav com navegação para as 2 paginas e o menu hamburguer(aparacerá apenas no mobile)-->
+        <!--div do menu hamburguer, que ao ser clicada irá abrir um pequeno menu-->
+        <div class="hamburguer" id="ham" onclick="mostraMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="logo"> <!--div com o icone da pagina-->
+        <a href="index.html"> <!--ao clicar na logo, voce volta para a primeira pagina-->
+        <img src="imagens/logo.png" alt="Logo">
+        </a>
+      </div>
+      <nav> <!--navegação com os links para as 2 paginas-->
+        <ul class="nav-links">
+          <li><a href="index.html">Todos os Produtos</a></li>
+          <li><a href="index2.html">Smartphones</a></li>
+        </ul>
+      </nav>
+    </header>
+     <div class="menu-small" id="menuSm"> <!--div do menu que aparecerá ao clicar no menu hamburguer, que também terá os links paras as paginas-->
+      <ul class="nav-links-small">
+        <li><a href="index.html">Todos os Produtos</a></li>
+        <li><a href="index2.html">Smartphones</a></li>
+      </ul>
+    </div>
+    <main> <!--main com divs contendo botão para pegar os dados da api e conteiner para a galeria de cards-->
+      <div class="conteiner-principal">
+        <h1>Produtos</h1>
+        <button id="botao" onclick="pegarDados()">Visualizar produto</button>
+      </div>
+
+      <hr class="separador"> <!--achei essa tag na internet e achei interessante colocar, ela server como separador de conteudo-->
+
+      <div id="galeria" class="galeria-conteiner">
+
+      </div>
+    </main>
+
+    <script src="script.js"></script> <!--link com js-->
+</body>
+</html>
