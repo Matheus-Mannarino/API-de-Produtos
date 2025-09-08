@@ -1,6 +1,13 @@
 # 🛒 API de Produtos
 Projeto feito para uma avaliação no 1º período da faculdade de Ciência de Dados e Inteligência Artifical na disciplina de Desenvolvimento Web. 
 
+## 📒 Linguagens Utilizadas
+<div style="display: inline_block"><br>
+  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
+
 ## 🎯 Objetivo
 Desenvolver um site responsivo, mobile first (celulares) usando técnicas de layout como Flexbox ou CSS Grid.
 
